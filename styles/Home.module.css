@@ -1,0 +1,101 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameContainer {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+.gameContainer h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.statusArea {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wordDisplayArea {
+  margin-bottom: 25px;
+  min-height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.letterBox {
+  padding: 10px 15px;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: 2px solid #ced4da;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  user-select: none;
+}
+
+.letterBox:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.inputArea {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.wordInput {
+  width: 65%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 1em;
+}
+
+.submitBtn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+.resetBtn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #6c757d;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
